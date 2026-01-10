@@ -45,3 +45,20 @@
   object-fit: cover;
   display: block;
 }
+
+.feedback-form {
+  max-width: 408px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 8px;
+}
